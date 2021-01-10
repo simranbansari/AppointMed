@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'navigation.dart';
+import 'screens/loginpage.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
         title: 'BookTrades',
         initialRoute: '/',
         routes: {
-          '/': (context) => NavigationBarRoot(),
+          '/': (context) => loginpage(),
         },
         theme: ThemeData(accentColor: Color.fromRGBO(61, 191, 165, 100)));
   }
